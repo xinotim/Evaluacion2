@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(224, 190, 140);
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(47, 180, 47);
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    font-style: oblique;
+    font-weight: 200;
+    text-align: center;
+    padding: 30px 0;
+    color: #000;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(47, 180, 47);
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgb(47, 180, 47);
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background: burlywood;
+    border: 1px solid rgb(6, 163, 6);
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(25% - 20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #f7e492;
+    padding: 20px 0;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+}
+
